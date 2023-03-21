@@ -1,0 +1,9 @@
+[Unit]
+Description=Actividad 4 Saludo y fecha 
+
+[Service]
+Type=simple
+ExecStart=/home/cristian/sopes/SO1_Actividades_201603103/Actividad4/code/actividad 4.sh
+
+[Install]
+WantedBy=multi-user.target  
