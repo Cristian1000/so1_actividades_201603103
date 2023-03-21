@@ -4,11 +4,11 @@ Para realizar un systemd unit de tipo servicio para ejecutar un script que impri
 
 ## Pasos para la instalación y ejecucion del servicio
 
-1.	Se crea un script que ejecutará la tarea especificada, este tiene el nombre de actividad4.sh dentro de la carpeta de code. El script se puede encontrar en actividad4.sh
+1.	Se crea un script que ejecutará la tarea especificada, este tiene el nombre de actividad4.sh dentro de la carpeta de code. El script se puede encontrar en Actividad 4.sh
 
 A este script se le deben dar los permisos de ejecución con el siguiente comando:
     ```
-    chmod +x actividad4.sh 
+    chmod +x Actividad 4.sh 
     ```
 
 2. Se crea un archivo de systemd unit en la carpeta /etc/systemd/system/, con el respectivo nombre: actividad4.service. Este archivo servirá para ejecutar el servicio y se realiza con el siguiente comando:
@@ -26,11 +26,11 @@ A este script se le deben dar los permisos de ejecución con el siguiente comand
 
 6. Se inicia el servicio con el comando:
     ```
-    sudo systemctl start actividad4.service   
+    sudo systemctl start Actividad 4.service   
     ```
 
 7. Finalmente, para verificar el estado y el mensaje después de la ejecución del servicio, se utiliza el comando:
 
     ```
-    sudo systemctl status actividad4.service    
+    sudo systemctl status Actividad 4.service    
     ```
